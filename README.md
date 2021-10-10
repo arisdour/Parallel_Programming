@@ -27,7 +27,7 @@ The profiler's output is saved in output.txt
 *** Version_1_2 ***
 In this version, the functions Classification and EstimateCenters are parallelized using pragma omp parallel directives. The profiler's output is saved in output.txt
 
-*** Version_1_2 ***
+*** Version_2***
 In this version, the function Classification is parallelized using pragma omp parallel directives ,with different scheduling. The profiler's output is saved in output.txt
 
 
