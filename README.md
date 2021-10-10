@@ -37,3 +37,22 @@ The program is optimized with the use of two directives:
   #pragma GCC option("arch=native","tune=native","no-zero-upper") 
 The profiler's output is saved in output.txt
 
+
+ ##### Neural Network #####
+
+The source code of this files implements a two layer Neural Network with L1_N Neurons for the first layer, L2_N Neurons for the second layer and N input size, that uses the Error Back Propagation Algorithm (Versions_0 & Version_1). 
+Then that neural network is parallelized using omp directives for Parallel Programming. 
+
+
+*** NN_Version_0 ***
+
+This version implements the  Feedforward Propagation of a two Layer Neural Network
+
+*** NN_Version_1 ***
+
+The source code in this version adds the Error Back propagation to the Neural Network
+
+*** NN_Version_2 ***
+
+The Neural Network is optimized using parallel programming
+
